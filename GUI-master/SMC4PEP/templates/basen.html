@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <script defer src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script defer src="https://kit.fontawesome.com/e71fe084a2.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>SMC4PEP</title>
+</head>
+<body>
+
+<div class="diva">
+    <div class="chatbox__header">
+
+    </div>
+
+    <div></div>
+
+        <div></div>
+
+        <form class="fixd__button" enctype = "multipart/form-data" onsubmit="return false;" >
+            <input class="cx__send--footer file__button" id="file" type="file" name="static_file"/>
+            <br>
+            <button class="chatbox__upload--footer fix__button" id="upload-button" onclick="uploadFile(this.form)">Upload BPMN model (XML)</button>
+            <!-- <label for="upload-button"><i class="fa-solid fa-arrow-up-from-bracket"></i></label> -->
+            <div id="static_file_response" hidden> </div>
+
+        </form>
+        <div></div>
+        <button class="chatbox__send--footer send__button">Convert to MDP model in PRISM</button>
+    <!-- <div class="chatbox__footer">
+
+        <button class="chatbox__send--footer send__button">Convert to MDP model in PRISM</button>
+    </div> -->
+
+
+</div>
+
+
+    <script>
+        // $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}">
+
+
+
+
+    </script>
+
+</body>
+</html>

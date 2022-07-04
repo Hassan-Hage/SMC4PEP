@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="prism-api/src"/>
+	<classpathentry kind="src" path="prism/prism/ext/lp_solve_5.5_java/demo"/>
+	<classpathentry kind="src" path="prism/prism/ext/lp_solve_5.5_java/demo2"/>
+	<classpathentry kind="src" path="prism/prism/ext/lp_solve_5.5_java/src/java"/>
+	<classpathentry kind="src" path="prism/prism/src"/>
+	<classpathentry kind="lib" path="prism/prism/ext/lp_solve_5.5_java/lib/junit.jar"/>
+	<classpathentry kind="lib" path="prism/prism/ext/lp_solve_5.5_java/lib/lpsolve55j.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/colt.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/epsgraphics.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/jas.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/jcommon.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/jhoafparser.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/lpsolve55j.jar"/>
+	<classpathentry kind="lib" path="prism/prism/lib/nailgun-server.jar"/>
+	<classpathentry kind="output" path="prism/prism/classes"/>
+</classpath>
